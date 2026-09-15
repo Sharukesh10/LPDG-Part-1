@@ -1,0 +1,2 @@
+duplicate_groups,rows_involved,excess_rows,exact_duplicate_groups,conflicting_duplicate_groups,exact_duplicate_rows,conflicting_duplicate_rows,affected_gateways,affected_months,differing_metrics
+6547,13094,6547,6547,0,13094,0,293,"2025-09,2025-11,2026-01",None

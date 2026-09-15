@@ -1,0 +1,9 @@
+week_start,breaches_A,breaches_B,score_changes,top15_swaps,zero_std_offline,zero_std_disconn,zero_std_reboot,zero_std_ignored_breaches,total_tied_gateways,cutoff_score_rank15,gateways_tied_at_rank15_cutoff,tie_ordering_impacts_top15
+2026-02-02,260,250,94,5,4,4,202,0,286,18.0,1,False
+2026-02-09,262,254,101,5,4,4,201,0,286,16.0,4,True
+2026-02-16,265,253,103,5,4,4,210,0,284,19.0,3,True
+2026-02-23,277,272,96,6,4,4,211,0,291,20.0,3,True
+2026-03-02,270,264,86,7,4,4,210,0,294,17.0,3,True
+2026-03-09,268,257,98,4,4,4,211,0,300,17.0,3,True
+2026-03-16,270,262,101,5,5,5,214,0,304,15.0,3,True
+2026-03-23,275,270,88,4,6,6,217,0,301,15.0,3,True

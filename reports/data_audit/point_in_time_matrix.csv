@@ -1,0 +1,9 @@
+week_start,telemetry_cutoff,gateway_master,field_visits_cutoff,meter_read_cutoff,engineer_review_available
+2026-02-02,Strictly < 2026-02-02 00:00 UTC,Available (Static master data),visited_on < 2026-02-02,week_start < 2026-02-02,NO (Unavailable prior to 2026-02-16)
+2026-02-09,Strictly < 2026-02-09 00:00 UTC,Available (Static master data),visited_on < 2026-02-09,week_start < 2026-02-09,NO (Unavailable prior to 2026-02-16)
+2026-02-16,Strictly < 2026-02-16 00:00 UTC,Available (Static master data),visited_on < 2026-02-16,week_start < 2026-02-16,YES
+2026-02-23,Strictly < 2026-02-23 00:00 UTC,Available (Static master data),visited_on < 2026-02-23,week_start < 2026-02-23,YES
+2026-03-02,Strictly < 2026-03-02 00:00 UTC,Available (Static master data),visited_on < 2026-03-02,week_start < 2026-03-02,YES
+2026-03-09,Strictly < 2026-03-09 00:00 UTC,Available (Static master data),visited_on < 2026-03-09,week_start < 2026-03-09,YES
+2026-03-16,Strictly < 2026-03-16 00:00 UTC,Available (Static master data),visited_on < 2026-03-16,week_start < 2026-03-16,YES
+2026-03-23,Strictly < 2026-03-23 00:00 UTC,Available (Static master data),visited_on < 2026-03-23,week_start < 2026-03-23,YES

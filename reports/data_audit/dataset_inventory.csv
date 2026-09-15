@@ -1,0 +1,6 @@
+dataset,format,rows,cols,unique_gateways,duplicate_rows,min_date,max_date
+gateway_master.csv,CSV (Latin-1),332,12,332,0,2019-03-04,2026-07-14
+field_visits.csv,CSV (UTF-8),642,8,247,0,2025-02-05,2026-02-14
+meter_read_success.csv,CSV (UTF-8),7226,4,299,0,2025-08-04,2026-01-26
+engineer_review_2026-02.xlsx,XLSX,120,6,120,0,2026-02-15,2026-02-15
+telemetry/ (8 months Parquet),Parquet,1433387,5,320,6547,2025-08-01 00:00:00+00:00,2026-03-31 23:00:00+00:00
