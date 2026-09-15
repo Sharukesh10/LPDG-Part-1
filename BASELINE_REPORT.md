@@ -75,7 +75,7 @@ For each Monday in the 8 scored weeks (`2026-02-02` through `2026-03-23`):
 ---
 
 ## 6. Baseline Observations & Suspicious Behaviors
-1. **In-Sample Target Leakage in Baseline**: The 7-day recent evaluation window is a sub-window of the 28-day baseline window. Large spikes during the recent 7 days inflate the baseline $\mu$ and $\sigma$ for that same gateway, reducing sensitivity to persistent or recent anomalies.
+1. **Reference-Window Overlap (Self-Normalisation)**: The 7-day recent detection window is a sub-window of the 28-day reference window. All observations are strictly before scoring Monday T, so this is not future-data leakage. However, large spikes during the recent 7 days inflate the reference $\mu$ and $\sigma$ for that same gateway, reducing sensitivity to persistent or recent anomalies (self-normalisation).
 2. **Zero Standard Deviation Suppression ($\sigma = 0$)**: If a gateway had zero disconnects/reboots across the entire 28 days, its $\sigma = 0$. `baseline_3sigma.py` replaces $\sigma=0$ with `NaN`, causing any sudden breach during the trailing 7 days to be completely ignored (`fillna(False)`).
 3. **Implicit Arbitrary Tie-Breaking**: Multiple gateways frequently share identical `flagged_hours` scores (e.g., ties at 19 hours or 15 hours). The algorithm relies on pandas implicit DataFrame ordering for tie-breaking rather than business-driven criteria (e.g., impact, field visit history, or severity).
 4. **First Breach Metric Over-Simplification**: The generated reason string selects the metric of the "first breach" based on arbitrary row/iteration order, ignoring which metric had the most severe anomaly or highest business impact.
